@@ -4,7 +4,7 @@ import backgroundImage from "@/assets/heroimg.png";
 export default function HeaderSection() {
   return (
     <header
-      className="relative w-full h-[550px] md:h-[620px] lg:h-[650px] flex items-center"
+      className="relative w-full h-[550px] md:h-[620px] lg:h-[650px] flex items-center z-1"
     >
       {/* Background image */}
       <div
