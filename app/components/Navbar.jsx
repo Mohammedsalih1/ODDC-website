@@ -15,21 +15,16 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Image src={assets.mainlogo} alt="website logo" className="w-18" />
-            {/* <span className="text-blue-500 text-3xl">🦷</span>
-            <span className="font-semibold text-gray-700 text-lg leading-tight">
-              عيادة الأسنان<br />مستشفى عثمان دقنة
-            </span> */}
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 text-gray-600 font-medium">
-            <Link href="/" className="hover:text-blue-500">الرئيسية</Link>
-            <Link href="/about" className="hover:text-blue-500">من نحن</Link>
-            <Link href="/services" className="hover:text-blue-500">الخدمات</Link>
-            <Link href="/doctors" className="hover:text-blue-500">الأطباء</Link>
-            <Link href="/appointments" className="hover:text-blue-500">حجز موعد</Link>
-            {/* <Link href="/blog" className="hover:text-blue-500">المدونة</Link> */}
-            <Link href="/contact" className="hover:text-blue-500">تواصل معنا</Link>
+            <a href="#" className="hover:text-blue-500">الرئيسية</a>
+            <a href="#about" className="hover:text-blue-500">من نحن</a>
+            <a href="#services" className="hover:text-blue-500">الخدمات</a>
+            <a href="#doctors" className="hover:text-blue-500">الأطباء</a>
+            <a href="#appointments" className="hover:text-blue-500">حجز موعد</a>
+            <a href="#contact" className="hover:text-blue-500">تواصل معنا</a>
           </div>
 
           {/* Mobile Button */}
@@ -44,13 +39,12 @@ export default function Navbar() {
         {/* Mobile Menu */}
         {open && (
           <div className="md:hidden flex flex-col space-y-3 py-4 text-gray-600 font-medium">
-            <Link href="/" className="hover:text-blue-500">الرئيسية</Link>
-            <Link href="/about" className="hover:text-blue-500">من نحن</Link>
-            <Link href="/services" className="hover:text-blue-500">الخدمات</Link>
-            <Link href="/doctors" className="hover:text-blue-500">الأطباء</Link>
-            <Link href="/appointments" className="hover:text-blue-500">حجز موعد</Link>
-            {/* <Link href="/blog" className="hover:text-blue-500">المدونة</Link> */}
-            <Link href="/contact" className="hover:text-blue-500">تواصل معنا</Link>
+            <a href="#" className="hover:text-blue-500">الرئيسية</a>
+            <a href="#about" className="hover:text-blue-500">من نحن</a>
+            <a href="#services" className="hover:text-blue-500">الخدمات</a>
+            <a href="#doctors" className="hover:text-blue-500">الأطباء</a>
+            <a href="#appointments" className="hover:text-blue-500">حجز موعد</a>
+            <a href="#contact" className="hover:text-blue-500">تواصل معنا</a>
           </div>
         )}
       </div>

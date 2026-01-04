@@ -1,5 +1,4 @@
 import { assets } from "@/assets/assets";   
-import backgroundImage from "@/assets/heroimg.png";
 
 export default function HeaderSection() {
   return (

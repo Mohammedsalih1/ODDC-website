@@ -3,7 +3,7 @@ import { assets } from "@/assets/assets";
 
 export default function AboutUsSection() {
   return (
-    <section className="py-2 bg-white">
+    <section className="py-2 bg-white" id="about">
       <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-20 grid lg:grid-cols-2 gap-12 items-center">
         
         {/* Left Images */}
@@ -48,9 +48,9 @@ export default function AboutUsSection() {
             <li>✓ متابعة دقيقة لحالة كل مريض</li>
           </ul>
 
-          <button className="mt-6 bg-blue-600 cursor-pointer text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition font-semibold">
+          <a href="#services" className="mt-6 bg-blue-600 cursor-pointer text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition font-semibold">
             اعرف المزيد عن خدماتنا
-          </button>
+          </a>
         </div>
       </div>
     </section>
