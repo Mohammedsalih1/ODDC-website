@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import ImageSlider from "./Slider";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 
@@ -64,6 +65,12 @@ export default function ServicesSection() {
           نقدم مجموعة شاملة من خدمات طب الأسنان باستخدام أحدث التقنيات لضمان راحتك وجودة علاجك.
         </p>
 
+        <ImageSlider images={[
+          "/images/slide-1.jpg", 
+          "/images/slide-2.jpg", 
+          "/images/slide-3.jpg", 
+          "/images/slide-4.jpg", ]} />
+
         {/* === SLIDER START === */}
         <Swiper
          pagination={{
@@ -82,7 +89,7 @@ export default function ServicesSection() {
             640: { slidesPerView: 2 },
             1024: { slidesPerView: 4 },
           }}
-          className="pb-12"
+          className="pb-12 md:-mt-3 mt-2"
         >
           {services.map((service, i) => (
             <SwiperSlide key={i}>
