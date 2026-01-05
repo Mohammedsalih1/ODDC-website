@@ -31,13 +31,13 @@ export default function HeaderSection() {
 
           {/* CTA Buttons */}
           <div className="flex gap-3 mt-5">
-            <button className="bg-white cursor-pointer text-blue-600 font-semibold px-5 py-2 rounded-lg hover:bg-gray-200 transition">
+            <a href="#appointment" className="bg-white cursor-pointer text-blue-600 font-semibold px-5 py-2 rounded-lg hover:bg-gray-200 transition">
               احجز موعد الآن
-            </button>
+            </a>
 
-            <button className="bg-blue-600/80 cursor-pointer text-white font-semibold px-5 py-2 rounded-lg hover:bg-blue-700 transition">
+            <a href="#contact" className="bg-blue-600/80 cursor-pointer text-white font-semibold px-5 py-2 rounded-lg hover:bg-blue-700 transition">
               تواصل معنا
-            </button>
+            </a>
           </div>
         </div>
       </div>

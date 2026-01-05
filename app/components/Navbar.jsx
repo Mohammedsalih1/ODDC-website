@@ -23,7 +23,7 @@ export default function Navbar() {
             <a href="#about" className="hover:text-blue-500">من نحن</a>
             <a href="#services" className="hover:text-blue-500">الخدمات</a>
             <a href="#doctors" className="hover:text-blue-500">الأطباء</a>
-            <a href="#appointments" className="hover:text-blue-500">حجز موعد</a>
+            <a href="#appointment" className="hover:text-blue-500">حجز موعد</a>
             <a href="#contact" className="hover:text-blue-500">تواصل معنا</a>
           </div>
 
@@ -43,7 +43,7 @@ export default function Navbar() {
             <a href="#about" className="hover:text-blue-500">من نحن</a>
             <a href="#services" className="hover:text-blue-500">الخدمات</a>
             <a href="#doctors" className="hover:text-blue-500">الأطباء</a>
-            <a href="#appointments" className="hover:text-blue-500">حجز موعد</a>
+            <a href="#appointment" className="hover:text-blue-500">حجز موعد</a>
             <a href="#contact" className="hover:text-blue-500">تواصل معنا</a>
           </div>
         )}

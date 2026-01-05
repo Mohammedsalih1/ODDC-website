@@ -4,6 +4,9 @@ import HeaderSection from "./components/Header";
 import AboutUsSection from "./components/AboutUs";
 import ServicesSection from "./components/Services";
 import DoctorsSection from "./components/Doctors";
+import AppointmentSection from "./components/Appointment";
+import ContactUs from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +16,9 @@ export default function Home() {
       <AboutUsSection />
       <ServicesSection />
       <DoctorsSection />
+      <AppointmentSection />
+      <ContactUs />
+      <Footer />
     </>
   );
 }
