@@ -61,7 +61,7 @@ export default function ContactUs() {
               <div className="flex flex-wrap gap-4 text-gray-700">
                 <Social />
               </div>        
-                <div className="flex items-center gap-3 bg-gray-100 dark:bg-gray-800 px-4 py-3 rounded-xl w-fit shadow-sm hover:shadow-md transition">
+                <div className="flex items-center gap-3 mt-11 md:mt-0 bg-gray-100 dark:bg-gray-800 px-4 py-3 rounded-xl w-fit shadow-sm hover:shadow-md transition">
                 {/* Email Icon */}
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -103,14 +103,14 @@ export default function ContactUs() {
             </div> */}
 
             {/* Google Map */}
-            <div className="w-full h-64 rounded-xl overflow-hidden shadow-md">
+            {/* <div className="w-full h-64 rounded-xl overflow-hidden shadow-md">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1044.4786999382582!2d37.21713053334923!3d19.62281221227055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15d7549f36d416c7%3A0x22e8dc9a7c37ffd4!2z2YXYs9iq2LTZgdmKINin2YTYo9mF2YrYsSDYudir2YXYp9mGINiv2YLZhtip!5e0!3m2!1sar!2s!4v1767619719241!5m2!1sar!2s"
-                className="w-full h-full border-0"
+                className="w-[80%] md:w-full h-full border-0"
                 allowFullScreen=""
                 loading="lazy"
               ></iframe>
-            </div>
+            </div> */}
 
           </div>
 

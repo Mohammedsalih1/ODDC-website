@@ -8,7 +8,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white shadow-sm fixed z-10">
+    <nav className="w-full bg-white shadow-sm fixed right-0 z-10">
       <div className="max-w-7xl mx-auto px-4 lg:px-8">
         <div className="flex justify-between items-center py-2">
 
@@ -30,7 +30,7 @@ export default function Navbar() {
           {/* Mobile Button */}
           <button
             onClick={() => setOpen(!open)}
-            className="md:hidden text-gray-600 focus:outline-none text-3xl cursor-pointer hover:text-blue-500"
+            className="md:hidden text-gray-600 focus:outline-none text-2xl cursor-pointer hover:text-blue-500"
           >
             {open ? "✕" : "☰"}
           </button>
