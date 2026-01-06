@@ -7,12 +7,14 @@ import DoctorsSection from "./components/Doctors";
 import AppointmentSection from "./components/Appointment";
 import ContactUs from "./components/Contact";
 import Footer from "./components/Footer";
+import ClinicSections from "./components/ClinicSections";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <HeaderSection />
+      <ClinicSections />
+      {/* <HeaderSection /> */}
       <AboutUsSection />
       <ServicesSection />
       <DoctorsSection />

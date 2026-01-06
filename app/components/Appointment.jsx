@@ -9,7 +9,8 @@ export default function AppointmentSection() {
     name: "",
     phone: "",
     service: "",
-    date: ""
+    date: "",
+    discountCode: "",
   });
 
   const whatsappNumber = "249123952092"; // ضع رقم العيادة هنا بدون +
@@ -34,6 +35,7 @@ export default function AppointmentSection() {
       `• رقم الهاتف: ${form.phone}\n` +
       `• الخدمة المطلوبة: ${form.service}\n` +
       `• الوقت المناسب: ${form.date}\n\n` +
+      `• كود الخصم : ${form.discountCode}\n\n` +
       `شكرا لكم.`;
 
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
@@ -120,6 +122,41 @@ export default function AppointmentSection() {
                 className="w-full px-4 py-2 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500"
                 onChange={(e) => setForm({ ...form, date: e.target.value })}
               />
+            </div>
+
+            <div className="mt-6">
+              <label className="block mb-2 text-gray-700 font-semibold">
+                كود الخصم (اختياري)
+              </label>
+
+              <div className="relative">
+                <span className="absolute left-3 top-1/2 -translate-y-1/2 text-blue-600">
+                  {/* Ticket / Coupon Icon */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-5 h-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 14l6-6m-6 0l6 6M5 7h14l1 4-1 4H5L4 11l1-4z"
+                    />
+                  </svg>
+                </span>
+
+                <input
+                  type="text"
+                  placeholder="مثال: OD2025"
+                  className="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-300 transition bg-white"
+                />
+              </div>
+
+              {/* Optional validation message */}
+              {/* <p className="text-red-500 text-sm mt-1">الكوبون غير صالح</p> */}
             </div>
 
             {/* أزرار */}
