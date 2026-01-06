@@ -83,7 +83,7 @@ export default function ClinicSections() {
       </div>
 
       {/* Slider */}
-      <div className="relative w-full h-121 md:h-216">
+      <div className="relative w-full h-115 md:h-216">
         <Swiper
           modules={[EffectFade, Autoplay, Pagination]}
           effect="fade"
