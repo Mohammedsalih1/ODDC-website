@@ -15,7 +15,7 @@ const InsuranceSection = () => {
         
         {/* Title */}
         <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
-          شركات التأمين المتعاقدة معنا
+          شركات التأمين المتعاقدة معنا <Image src="/images/companies.png" alt="" width={42} height={42} className="inline-block w-14 h-14 mb-1" />
         </h2>
 
         {/* Mobile Slider */}

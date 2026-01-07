@@ -3,7 +3,7 @@ import { assets } from "@/assets/assets";
 
 export default function AboutUsSection() {
   return (
-    <section className="py-2 bg-white" id="about">
+    <section className="bg-[#eee] mt-0 py-20 border-b border-blue-300" id="about">
       <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-20 grid lg:grid-cols-2 gap-12 items-center">
         
         {/* Left Images */}
@@ -27,8 +27,8 @@ export default function AboutUsSection() {
 
         {/* Right Content */}
         <div className="space-y-6 text-right">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            من نحن؟
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+            من نحن؟ <Image src="/images/tooth-service.png" alt="" width={42} height={42} className="inline-block w-12 h-12 mb-1" />
           </h2>
 
           <p className="text-gray-600 leading-relaxed text-lg">

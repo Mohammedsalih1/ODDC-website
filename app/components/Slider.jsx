@@ -28,6 +28,8 @@ export default function ImageSlider({ images = [] }) {
           <Image
             src={img}
             alt={`Slide ${i}`}
+            // height={180}
+            // width={1080}
             fill
             className="object-cover rounded-xl"
           />

@@ -9,20 +9,31 @@ import ContactUs from "./components/Contact";
 import Footer from "./components/Footer";
 import ClinicSections from "./components/ClinicSections";
 import InsuranceSection from "./components/Companies";
+import ImageSlider from "./components/Slider";
 
 export default function Home() {
-//   const insuranceCompanies = [
-//   "/images/insurance1.jpg",
-//   "/images/insurance2.jpg",
-//   "/images/insurance3.jpg",
-//   // "/images/insurance4.png",
-//   // "/images/insurance5.png",
-//   // "/images/insurance6.png",
-// ];
 
   return (
     <>
       <Navbar />
+      {/* <ImageSlider images={[
+        "/posters/implant1.jpg",
+        "/posters/implant2.jpg",
+        "/posters/implant3.jpg",
+        "/posters/implant4.jpg",
+        "/posters/kids1.jpg",
+        "/posters/kids2.jpg",
+        "/posters/kids3.jpg",
+        "/posters/kids4.jpg",
+        "/posters/braces1.jpg",
+        "/posters/braces2.jpg",
+        "/posters/braces3.jpg",
+        "/posters/braces4.jpg",
+        "/posters/gum1.jpg",
+        "/posters/gum2.jpg",
+        "/posters/gum3.jpg",
+        "/posters/gum4.jpg",
+        ]} /> */}
       <ClinicSections />
       {/* <HeaderSection /> */}
       <AboutUsSection />

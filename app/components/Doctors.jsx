@@ -55,10 +55,10 @@ const doctors = [
 
 export default function DoctorsSection() {
   return (
-    <section id="doctors" className="py-20 bg-white">
+    <section id="doctors" className="py-20 border-b border-blue-200 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-5 text-[#1A3C6E]">
-          فريق الأطباء
+          فريق الأطباء <Image src="/images/team.png" alt="" width={42} height={42} className="inline-block w-14 h-14 mb-1" />
         </h2>
         <p className="text-gray-600 text-lg text-center mb-2">
             نخبة من أفضل الأطباء المتخصصين لضمان رعاية طبية متكاملة ومتكاملة لك ولعائلتك.

@@ -5,11 +5,11 @@
 /* Normal bullet */
 .custom-bullet {
   /* background-image: url("/icons/kids.svg"); */
-  background-size: contain;
-  background-repeat: no-repeat;
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
   opacity: 0.6;
   transition: all 0.3s ease;
-  /* margin: 0 6px; */
+  margin: 0 6px;
 }
 
 /* Active bullet */
