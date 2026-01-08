@@ -1,5 +1,5 @@
 "use client";
-import { assets } from "@/assets/assets";
+// import { assets } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
 
@@ -12,7 +12,9 @@ const Footer = () => {
         <div>
           <div className="mb-4">
             <Image
-              src={assets.footer}
+              src="/footer.png"
+              width={518}
+              height={481}
               alt="Clinic Logo"
               className="w-32 h-auto"
             />
@@ -46,6 +48,10 @@ const Footer = () => {
           <ul className="space-y-3 text-gray-700 dark:text-gray-300">
             <li>اوقات العمل : صباح ومساء</li>
             <li>كل الايام حتى يوم الجمعة</li>
+            <h2 className="">ايام لتخصصات معينة :</h2>
+            <li>الجمعة : اخصائية التقويم من الساعة 4-8 مساء</li>
+            <li>الاحد : اخصائية اللثة من الساعة 4-8 مساء</li>
+            <li>الاثنين : اخصائية الاطفال من الساعة 4-8 مساء</li>
 
             {/* <li>
               رقم الهاتف 1:

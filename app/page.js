@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import ClinicSections from "./components/ClinicSections";
 import InsuranceSection from "./components/Companies";
 import ImageSlider from "./components/Slider";
+import Company from "./components/Companies";
 
 export default function Home() {
 
@@ -40,7 +41,8 @@ export default function Home() {
       <ServicesSection />
       <DoctorsSection />
       <AppointmentSection />
-      <InsuranceSection  />
+      <Company />
+      {/* <InsuranceSection  /> */}
       <ContactUs />
       <Footer />
     </>

@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { assets } from "@/assets/assets";
+// import { assets } from "@/assets/assets";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -14,7 +14,7 @@ export default function Navbar() {
 
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <Image src={assets.mainlogo} alt="website logo" className="w-18" />
+            <Image src="/mainlogo.jpg" alt="website logo" width={584} height={509} className="w-18" />
           </div>
 
           {/* Desktop Menu */}

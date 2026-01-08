@@ -107,7 +107,7 @@ export default function ImageSlider() {
 
 
   return (
-    <div className="relative w-full h-112 md:h-216 mt-22 overflow-hidden">
+    <div className="relative w-full h-112 md:h-216 md:rounded-2xl mt-22 overflow-hidden">
 
       {/* Images */}
       {images.map((img, i) => (
@@ -121,7 +121,7 @@ export default function ImageSlider() {
             src={img}
             alt={`Slide ${i}`}
             fill
-            className="object-cover"
+            className="object-cover md:object-contain md:rounded-2xl"
           />
         </div>
       ))}

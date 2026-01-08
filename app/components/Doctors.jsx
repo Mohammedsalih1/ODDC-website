@@ -24,7 +24,7 @@ const doctors = [
     name: "د. رؤى حمزة",
     specialty: "أخصائية الاطفال وذوي الاحتياجات الخاصة",
     role: "استشارية قريبا",
-    image: "/staff-members/doc3.jpg",
+    image: "/staff-members/doc3.JPG",
   },
   {
     name: "د. شهوب محمد عبد الله",

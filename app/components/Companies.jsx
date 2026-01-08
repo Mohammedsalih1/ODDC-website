@@ -1,6 +1,7 @@
 import Image from "next/image";
+import InsuranceSection from "./Soon";
 
-const InsuranceSection = () => {
+const Company = () => {
         const Companies = [
         "/images/insurance1.jpg",
         "/images/insurance2.jpg",
@@ -19,7 +20,7 @@ const InsuranceSection = () => {
         </h2>
 
         {/* Mobile Slider */}
-        <div className="md:hidden flex gap-4 overflow-x-auto pb-4">
+        {/* <div className="hidden gap-4 overflow-x-auto pb-4">
           {Companies.map((company, index) => (
             <div
               key={index}
@@ -34,11 +35,11 @@ const InsuranceSection = () => {
               />
             </div>
           ))}
-        </div>
+        </div> */}
 
         {/* Desktop Grid */}
-        <div className="hidden md:grid grid-cols-3 lg:grid-cols-4 gap-6 mt-4">
-          {Companies.map((company, index) => (
+        <div className="flex gap-6 mt-4">
+          {/* {Companies.map((company, index) => (
             <div
               key={index}
               className="bg-white rounded-xl shadow-sm p-2 flex items-center justify-center hover:shadow-md transition"
@@ -51,12 +52,51 @@ const InsuranceSection = () => {
                 className="object-contain max-h-28 w-full"
               />
             </div>
-          ))}
+          ))} */}
+            <div
+              
+              className="bg-white rounded-xl shadow-sm p-2 flex flex-col items-center justify-center hover:shadow-md transition"
+            >
+              <Image
+                src="/images/insurance1.jpg"
+                width={768}
+                height={960}
+                alt="Insurance Logo"
+                className="object-cover w-full rounded-2xl"
+              />
+              <h3 className="text-sm md:text-xl py-3">الشركة المتخصصة للتأمين</h3>
+            </div>
+            <div
+              
+              className="bg-white rounded-xl shadow-sm p-2 flex flex-col items-center justify-center hover:shadow-md transition"
+            >
+              <Image
+                src="/images/insurance2.jpg"
+                width={768}
+                height={960}
+                alt="Insurance Logo"
+                className="object-cover w-full rounded-2xl"
+              />
+              <h3 className="text-sm md:text-xl py-3">الشركة المتحدة للتأمين</h3>
+            </div>
+            <div
+              
+              className="bg-white rounded-xl shadow-sm p-2 flex flex-col items-center hover:shadow-md transition"
+            >
+              <Image
+                src="/images/insurance3.jpg"
+                width={768}
+                height={960}
+                alt="Insurance Logo"
+                className="object-cover w-full rounded-2xl"
+              />
+              <h3 className="text-sm md:text-xl pt-2">شركة البركة للتأمين</h3>
+            </div>
         </div>
-
+            <InsuranceSection />
       </div>
     </section>
   );
 };
 
-export default InsuranceSection;
+export default Company;

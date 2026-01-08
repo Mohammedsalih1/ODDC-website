@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { assets } from "@/assets/assets";
+import Link from "next/link";
+// import { assets } from "@/assets/assets";
 
 export default function AboutUsSection() {
   return (
@@ -10,15 +11,21 @@ export default function AboutUsSection() {
         <div className="grid grid-cols-2 gap-4">
           <div className="rounded-xl overflow-hidden shadow-md">
             <Image
-              src={assets.about1}
+              src="/aboutus-1.jpg"
               alt="عيادة الأسنان"
+              width={1280}
+              height={960}
+              // fill
               className="w-full h-full object-cover"
             />
           </div>
 
           <div className="rounded-xl overflow-hidden shadow-md">
             <Image
-              src={assets.about2}
+              src="/aboutus-2.jpg"
+              width={960}
+              height={1280}
+              // fill
               alt="الفريق الطبي"
               className="w-full h-full object-cover"
             />
@@ -47,6 +54,7 @@ export default function AboutUsSection() {
             <li>✓ بيئة علاجية مريحة وآمنة</li>
             <li>✓ متابعة دقيقة لحالة كل مريض</li>
           </ul>
+
 
           <a href="#services" className="mt-6 bg-blue-600 cursor-pointer text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition font-semibold">
             اعرف المزيد عن خدماتنا

@@ -108,7 +108,7 @@ export default function ServicesSection() {
             0: { slidesPerView: 1 },
             640: { slidesPerView: 2 },
             1024: { slidesPerView: 4 },
-            // 1024: { slidesPerView: 6 },
+            // 1800: { slidesPerView: 6 },
           }}
           className="pb-12 md:-mt-3 mt-2"
         >

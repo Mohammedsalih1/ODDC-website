@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { assets } from "@/assets/assets";
+// import { assets } from "@/assets/assets";
 
 export default function AppointmentSection() {
   const [form, setForm] = useState({
@@ -202,7 +202,7 @@ export default function AppointmentSection() {
                   className="flex items-center w-fit py-1 mb-2 px-3 rounded bg-blue-500 text-white font-bold hover:underline"
                 >
                   249123952092+ 
-                  <Image src={assets.call} alt="call" width={24} height={24} className="inline-block"/>
+                  <Image src="/call.png" alt="call" width={24} height={24} className="inline-block"/>
                     {/* <PhoneIconCall /> */}
 
                 </a>
@@ -212,7 +212,7 @@ export default function AppointmentSection() {
                   className="flex items-center w-fit py-1 px-3 rounded bg-blue-500 text-white font-bold hover:underline"
                 >
                     249111155569+
-                <Image src={assets.call} alt="call" width={24} height={24} className="inline-block"/>
+                <Image src="/call.png" alt="call" width={24} height={24} className="inline-block"/>
                     {/* <PhoneIconCall /> */}
                 </a>
               </div>
