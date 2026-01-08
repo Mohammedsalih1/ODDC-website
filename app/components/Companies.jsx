@@ -19,40 +19,8 @@ const Company = () => {
           شركات التأمين المتعاقدة معنا <Image src="/images/companies.png" alt="" width={42} height={42} className="inline-block w-14 h-14 mb-1" />
         </h2>
 
-        {/* Mobile Slider */}
-        {/* <div className="hidden gap-4 overflow-x-auto pb-4">
-          {Companies.map((company, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-xl shadow-sm border-4 border-blue-500 flex items-center justify-center"
-            >
-              <Image
-                src={company}
-                width={768}
-                height={960}
-                alt="Insurance Logo"
-                className="object-contain w-full h-full"
-              />
-            </div>
-          ))}
-        </div> */}
-
         {/* Desktop Grid */}
         <div className="flex gap-6 mt-4">
-          {/* {Companies.map((company, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-xl shadow-sm p-2 flex items-center justify-center hover:shadow-md transition"
-            >
-              <Image
-                src={company}
-                width={768}
-                height={960}
-                alt="Insurance Logo"
-                className="object-contain max-h-28 w-full"
-              />
-            </div>
-          ))} */}
             <div
               
               className="bg-white rounded-xl shadow-sm p-2 flex flex-col items-center justify-center hover:shadow-md transition"
